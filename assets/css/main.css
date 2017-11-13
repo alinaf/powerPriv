@@ -1,11 +1,36 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700|Oswald:200,300,400,500,600,700');
 
 /*
 	Solid State by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+
+/* Red Color Scheme 
+Black: #231f20;
+Dark Red: #6f1918;
+Light Red: #a0352c;
+White: #FFFFFF;
+
+Secondary
+Light Green: #51843a;
+Grey Highlight: #bcbec0;
+
+/*
+
+/* Green Color Scheme 
+Black: #231f20;
+Dark Green: #18601f;
+Light Green: #51843a;
+White: #FFFFFF;
+
+Secondary
+Gold Highlight: #FFCC00;
+Grey Highlight: #bcbec0;
+
+/*
 
 /* Reset */
 
