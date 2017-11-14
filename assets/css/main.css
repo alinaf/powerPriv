@@ -1649,8 +1649,8 @@ Grey Highlight: #bcbec0;
 	}
 
 	body {
-		background-color: #2e3141;
-		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+		background-color: #FCFCFC;
+		background-image: linear-gradient(to top, rgba(160, 53, 44, 0.8), rgba(160, 53, 44, 0.8)), url("../../images/bg.jpg");
 		background-size: auto, cover;
 		background-attachment: fixed, fixed;
 		background-position: center, center;
@@ -2037,7 +2037,7 @@ Grey Highlight: #bcbec0;
 
 	select option {
 		color: #ffffff;
-		background: #2e3141;
+		background: #FCFCFC;
 	}
 
 	input[type="text"],
@@ -2112,12 +2112,12 @@ Grey Highlight: #bcbec0;
 			background: #ffffff;
 			border-color: #ffffff;
 			content: '\f00c';
-			color: #2e3141;
+			color: #FCFCFC;
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #4c5c96;
+			border-color: #8b4646;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2484,7 +2484,7 @@ Grey Highlight: #bcbec0;
 					}
 
 					ul.pagination li > .page.active {
-						background-color: #4c5c96;
+						background-color: #8b4646;
 					}
 
 				ul.pagination li:first-child {
@@ -2666,7 +2666,7 @@ Grey Highlight: #bcbec0;
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #4c5c96;
+			background-color: #8b4646;
 			box-shadow: none;
 		}
 
@@ -2683,7 +2683,7 @@ Grey Highlight: #bcbec0;
 			input[type="button"].special:active,
 			button.special:active,
 			.button.special:active {
-				background-color: #45558d;
+				background-color: #7d2f2f;
 			}
 
 			input[type="submit"].special.icon:before,
@@ -2760,7 +2760,7 @@ Grey Highlight: #bcbec0;
 
 		.features article {
 			padding: 1.75em 1.75em 0.1em 1.75em ;
-			background-color: #353849;
+			background-color: #a0352c;
 			border-radius: 5px;
 			margin: 1.5em 3em 1.5em 0;
 			width: calc(50% - 1.5em);
@@ -2831,7 +2831,7 @@ Grey Highlight: #bcbec0;
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		background-color: rgba(53, 56, 73, 0.95);
+		background-color: rgba(111, 25, 24, 0.95);
 		height: 3.5em;
 		left: 0;
 		line-height: 3.5em;
@@ -3034,7 +3034,7 @@ Grey Highlight: #bcbec0;
 			-ms-transition: opacity 0.35s ease, -ms-transform 0.35s ease;
 			transition: opacity 0.35s ease, transform 0.35s ease;
 			-webkit-overflow-scrolling: touch;
-			background: #4c5c96;
+			background: #8b4646;
 			border-radius: 5px;
 			display: block;
 			max-width: 100%;
@@ -3089,7 +3089,7 @@ Grey Highlight: #bcbec0;
 				}
 
 					#menu .links li a:hover {
-						background: #45558d;
+						background: #7d2f2f;
 					}
 
 		@media screen and (max-width: 736px) {
@@ -3219,8 +3219,8 @@ Grey Highlight: #bcbec0;
 
 			#banner {
 				padding: 7em 0 8.25em 0 ;
-				background-color: #2e3141;
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+				background-color: #FCFCFC;
+				background-image: linear-gradient(to top, rgba(160, 53, 44, 0.8), rgba(160, 53, 44, 0.8)), url("../../images/bg.jpg");
 				background-size: auto, cover;
 				background-position: center, center;
 				margin-bottom: -6.5em;
@@ -3328,8 +3328,8 @@ Grey Highlight: #bcbec0;
 
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
-			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+			background-color: #FCFCFC;
+			background-image: linear-gradient(to top, rgba(160, 53, 44, 0.8), rgba(160, 53, 44, 0.8)), url("../../images/bg.jpg");
 			background-size: auto, cover;
 			background-position: center, 0% 30%;
 			margin-bottom: -6.5em;
@@ -3371,21 +3371,30 @@ Grey Highlight: #bcbec0;
 	}
 
 	.wrapper {
-		background-color: #2e3141;
+		background-color: #FCFCFC;
 		margin: 6.5em 0;
 		position: relative;
 	}
 
+	.wrapper p{
+		color: black;
+	}
+
+	.wrapper h3{
+		color: black;
+	}
+
+
 		.wrapper:before, .wrapper:after {
-			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%232e3141%3B' /%3E%3C/svg%3E");
+			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23FCFCFC%3B' /%3E%3C/svg%3E");
 		}
 
 		.wrapper:before {
-			box-shadow: inset 0 -1px 0 0 #2e3141, 0 1px 0 0 #2e3141;
+			box-shadow: inset 0 -1px 0 0 #FCFCFC, 0 1px 0 0 #FCFCFC;
 		}
 
 		.wrapper:after {
-			box-shadow: inset 0 -1px 0 0 #2e3141, 0 1px 0 0 #2e3141;
+			box-shadow: inset 0 -1px 0 0 #FCFCFC, 0 1px 0 0 #FCFCFC;
 		}
 
 		.wrapper:before, .wrapper:after {
@@ -3513,19 +3522,19 @@ Grey Highlight: #bcbec0;
 			}
 
 		.wrapper.spotlight {
-			background-color: #4c5c96;
+			background-color: #8b4646;
 		}
 
 			.wrapper.spotlight:before, .wrapper.spotlight:after {
-				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%234c5c96%3B' /%3E%3C/svg%3E");
+				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%238b4646%3B' /%3E%3C/svg%3E");
 			}
 
 			.wrapper.spotlight:before {
-				box-shadow: inset 0 -1px 0 0 #4c5c96, 0 1px 0 0 #4c5c96;
+				box-shadow: inset 0 -1px 0 0 #8b4646, 0 1px 0 0 #8b4646;
 			}
 
 			.wrapper.spotlight:after {
-				box-shadow: inset 0 -1px 0 0 #4c5c96, 0 1px 0 0 #4c5c96;
+				box-shadow: inset 0 -1px 0 0 #8b4646, 0 1px 0 0 #8b4646;
 			}
 
 			.wrapper.spotlight .inner {
@@ -3574,39 +3583,39 @@ Grey Highlight: #bcbec0;
 			}
 
 			.wrapper.spotlight.style2 {
-				background-color: #45558d;
+				background-color: #7d2f2f;
 			}
 
 				.wrapper.spotlight.style2:before, .wrapper.spotlight.style2:after {
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%2345558d%3B' /%3E%3C/svg%3E");
+					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%237d2f2f%3B' /%3E%3C/svg%3E");
 				}
 
 				.wrapper.spotlight.style2:before {
-					box-shadow: inset 0 -1px 0 0 #45558d, 0 1px 0 0 #45558d;
+					box-shadow: inset 0 -1px 0 0 #7d2f2f, 0 1px 0 0 #7d2f2f;
 				}
 
 				.wrapper.spotlight.style2:after {
-					box-shadow: inset 0 -1px 0 0 #45558d, 0 1px 0 0 #45558d;
+					box-shadow: inset 0 -1px 0 0 #7d2f2f, 0 1px 0 0 #7d2f2f;
 				}
 
 			.wrapper.spotlight.style3 {
-				background-color: #3f4e85;
+				background-color: #6f1918;
 			}
 
 				.wrapper.spotlight.style3:before, .wrapper.spotlight.style3:after {
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%233f4e85%3B' /%3E%3C/svg%3E");
+					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%236f1918%3B' /%3E%3C/svg%3E");
 				}
 
 				.wrapper.spotlight.style3:before {
-					box-shadow: inset 0 -1px 0 0 #3f4e85, 0 1px 0 0 #3f4e85;
+					box-shadow: inset 0 -1px 0 0 #6f1918, 0 1px 0 0 #6f1918;
 				}
 
 				.wrapper.spotlight.style3:after {
-					box-shadow: inset 0 -1px 0 0 #3f4e85, 0 1px 0 0 #3f4e85;
+					box-shadow: inset 0 -1px 0 0 #6f1918, 0 1px 0 0 #6f1918;
 				}
 
 			.wrapper.spotlight.style4 {
-				background-color: #39477c;
+				background-color: #white;
 			}
 
 				.wrapper.spotlight.style4:before, .wrapper.spotlight.style4:after {
@@ -3827,8 +3836,8 @@ Grey Highlight: #bcbec0;
 	@media screen and (max-width: 1280px) {
 
 		#footer {
-			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+			background-color: #FCFCFC;
+			background-image: linear-gradient(to top, rgba(160, 53, 44, 0.8), rgba(160, 53, 44, 0.8)), url("../../images/bg.jpg");
 			background-size: auto, cover;
 			background-position: center, center;
 			margin-top: -6.5em;
