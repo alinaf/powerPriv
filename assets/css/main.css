@@ -1,6 +1,7 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
 @import url('https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700|Oswald:200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
 
 /*
 	Solid State by HTML5 UP
@@ -1670,7 +1671,7 @@ Grey Highlight: #bcbec0;
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Merriweather", serif;
 		font-size: 16.5pt;
 		font-weight: 300;
 		line-height: 1.65;
@@ -1735,7 +1736,7 @@ Grey Highlight: #bcbec0;
 			text-decoration: none;
 			border-bottom: 0;
 			display: block;
-			font-family: Raleway, Helvetica, sans-serif;
+			font-family: Oswald, sans-serif;
 			font-size: 0.8em;
 			font-weight: 700;
 			letter-spacing: 0.1em;
@@ -1790,11 +1791,18 @@ Grey Highlight: #bcbec0;
 
 	p {
 		margin: 0 0 2em 0;
+		letter-spacing: 0.3px;
+	}
+
+	#bodyText p {
+		font-family: 'EB Garamond', serif;
+		font-size: 1.2em;
+		letter-spacing: 0.5px;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
-		font-family: Raleway, Helvetica, sans-serif;
+		font-family: Oswald, sans-serif;
 		font-weight: 700;
 		letter-spacing: 0.1em;
 		margin: 0 0 1em 0;
@@ -1814,6 +1822,9 @@ Grey Highlight: #bcbec0;
 			padding-bottom: 1em;
 			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 		}
+	h1 {
+		font-size: 3.3em;
+	}
 
 	h2 {
 		font-size: 1.2em;
@@ -1943,7 +1954,7 @@ Grey Highlight: #bcbec0;
 	label {
 		color: #ffffff;
 		display: block;
-		font-family: Raleway, Helvetica, sans-serif;
+		font-family: Oswald, sans-serif;
 		font-size: 0.8em;
 		font-weight: 700;
 		letter-spacing: 0.1em;
@@ -2061,7 +2072,7 @@ Grey Highlight: #bcbec0;
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: "Merriweather", serif;
 			text-transform: none;
 			letter-spacing: 0;
 			font-weight: 300;
@@ -2612,7 +2623,7 @@ Grey Highlight: #bcbec0;
 		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
-		font-family: Raleway, Helvetica, sans-serif;
+		font-family: Oswald, sans-serif;
 		font-size: 0.8em;
 		font-weight: 700;
 		height: 3.75em;
@@ -2848,7 +2859,7 @@ Grey Highlight: #bcbec0;
 			}
 
 		#header nav {
-			font-family: Raleway, Helvetica, sans-serif;
+			font-family: Oswald, sans-serif;
 			font-size: 0.8em;
 			font-weight: 700;
 			height: 3em;
@@ -3069,13 +3080,12 @@ Grey Highlight: #bcbec0;
 					border-radius: 5px;
 					border: 0;
 					display: block;
-					font-family: Raleway, Helvetica, sans-serif;
+					font-family: Merriweather, serif;
 					font-size: 0.8em;
 					font-weight: 200;
 					letter-spacing: 0.1em;
 					line-height: 1.85em;
 					padding: 0.75em 0;
-					text-transform: uppercase;
 				}
 
 					#menu .links li a:hover {
@@ -3198,12 +3208,11 @@ Grey Highlight: #bcbec0;
 			-ms-filter: blur(0);
 			filter: blur(0);
 			opacity: 1;
-			font-family: Raleway, Helvetica, sans-serif;
+			font-family: Merriweather, serif;
 			font-size: 1em;
 			font-weight: 200;
 			letter-spacing: 0.1em;
 			line-height: 2;
-			text-transform: uppercase;
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -3308,12 +3317,11 @@ Grey Highlight: #bcbec0;
 		}
 
 		#wrapper > header p {
-			font-family: Raleway, Helvetica, sans-serif;
+			font-family: Merriweather, sans-serif;
 			font-size: 1em;
 			font-weight: 200;
 			letter-spacing: 0.1em;
 			line-height: 2;
-			text-transform: uppercase;
 		}
 
 	@media screen and (max-width: 1280px) {
@@ -3777,11 +3785,17 @@ Grey Highlight: #bcbec0;
 		}
 
 		#footer .inner .copyright {
-			border-top: solid 2px rgba(255, 255, 255, 0.125);
 			list-style: none;
-			margin: 4em 0 2em 0;
-			padding: 2em 0 0 0;
 			width: 100%;
+			font-size: 1em;
+			font-family: Oswald, serif;
+			font-weight: 200;
+			opacity: 0.4;
+			text-align: center;
+		}
+
+		#footer .inner .copyright p {
+			letter-spacing: 0.14em;
 		}
 
 			#footer .inner .copyright li {
@@ -3793,6 +3807,11 @@ Grey Highlight: #bcbec0;
 				margin-left: 1em;
 				padding: 0;
 				padding-left: 1em;
+			}
+
+			.icons {
+				opacity: 0.5;
+				text-align: center;
 			}
 
 				#footer .inner .copyright li:first-child {
