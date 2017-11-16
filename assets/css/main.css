@@ -3206,18 +3206,37 @@ Grey Highlight: #bcbec0;
 /* Banner */
 
 	#banner {
-		background-image: url("../../images/slot-in-action.gif");
-		padding: 10em 0 4.75em 0 ;
+		/*background-image: url("../../images/cover.jpg");*/
+		/*padding: 10em 0 4.75em 0 ;	*/
+		margin: 0px;
+		padding: 0px;
 	}
+
+	.parallax {
+    /* The image used */
+    background-image: url("../../images/cover.jpg");
+
+    /* Set a specific height */
+    min-height: 350px; 
+    width: 100%;
+
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
 
 	#banner h1 {
 		color: black;
 	}
-
+/*
 		#banner .inner {
 			margin: 0 auto;
 			width: 55em;
-		}
+		}*/
 
 		#banner .logo {
 			-moz-transition: opacity 2s ease, -moz-transform 1s ease;
@@ -3304,7 +3323,6 @@ Grey Highlight: #bcbec0;
 				margin-bottom: -6.5em;
 
 			}
-
 		}
 
 		@media screen and (max-width: 980px) {
