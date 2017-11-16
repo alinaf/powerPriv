@@ -104,6 +104,10 @@ Grey Highlight: #bcbec0;
 	text-align: center;
 }
 
+.rectangle {
+	padding-right: 30px;
+}
+
 .info img{
 	width: 100%;
 }
@@ -1790,7 +1794,7 @@ Grey Highlight: #bcbec0;
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
-		color: #E4E8E6;
+		color: white;
 		text-decoration: none;
 	}
 
@@ -3206,37 +3210,31 @@ Grey Highlight: #bcbec0;
 /* Banner */
 
 	#banner {
-		/*background-image: url("../../images/cover.jpg");*/
+		background-image: url("../../images/cover.jpg");
 		/*padding: 10em 0 4.75em 0 ;	*/
 		margin: 0px;
 		padding: 0px;
-	}
-
-	.parallax {
-    /* The image used */
-    background-image: url("../../images/cover.jpg");
-
-    /* Set a specific height */
-    min-height: 350px; 
+		    min-height: 350px; 
     width: 100%;
 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: bottom;
-    background-repeat: no-repeat;
+    background-position: top;
+    background-repeat: repeat-x;
     background-size: cover;
     text-align: center;
-}
+	}
+
 
 	#banner h1 {
-		color: black;
+		color: white;
 	}
-/*
+
 		#banner .inner {
 			margin: 0 auto;
 			width: 55em;
-		}*/
+		}
 
 		#banner .logo {
 			-moz-transition: opacity 2s ease, -moz-transform 1s ease;
