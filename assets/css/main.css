@@ -74,6 +74,47 @@ Grey Highlight: #bcbec0;
 		-webkit-text-size-adjust: none;
 	}
 
+	#intro h3 {
+		letter-spacing: .24em;
+		font-weight: 200;
+		font-size: 1em;
+	}
+
+/* Audio */ 
+.audioStory img {
+	height: 300px;
+	padding: 10px;
+}
+
+.audioStory {
+	padding-top: 0px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+/* Map */ 
+.map {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+/* Infographic */ 
+.info {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.info img{
+	width: 100px;
+}
+
+/* Credits */ 
+.credit h3 {
+	text-align: center;
+	font-weight: normal;
+	letter-spacing: .15em;
+}
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -1650,7 +1691,7 @@ Grey Highlight: #bcbec0;
 
 	body {
 		/*background-color: #FCFCFC;*/
-		background-image: url("../../images/bg.jpg");
+		/*background-image: url("../../images/slot-in-action.jpg");*/
 /*		background-image: linear-gradient(to top, rgba(160, 53, 44, 0.8), rgba(160, 53, 44, 0.8)), url("../../images/bg.jpg");
 */		background-size: auto, cover;
 		background-attachment: fixed, fixed;
@@ -1724,8 +1765,12 @@ Grey Highlight: #bcbec0;
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
-		color: #ffffff;
+		color: #E4E8E6;
 		text-decoration: none;
+	}
+
+	#wrapper a {
+		color: #2c2d2d;
 	}
 
 		a:hover {
@@ -1836,11 +1881,13 @@ Grey Highlight: #bcbec0;
 	}
 
 	h4 {
-		font-size: 0.7em;
+		font-size: 1em;
+		color: #2c2d2d;
 	}
 
 	h5 {
-		font-size: 0.7em;
+		font-size: 1.2em;
+		color: #2c2d2d;
 	}
 
 	h6 {
@@ -2761,7 +2808,7 @@ Grey Highlight: #bcbec0;
 
 		.features article {
 			padding: 1.75em 1.75em 0.1em 1.75em ;
-			background-color: #a0352c;
+			background-color: #EAE3E4;
 			border-radius: 5px;
 			margin: 1.5em 3em 1.5em 0;
 			width: calc(50% - 1.5em);
@@ -3134,7 +3181,7 @@ Grey Highlight: #bcbec0;
 /* Banner */
 
 	#banner {
-		background-image: url("../../images/bg.jpg");
+		background-image: url("../../images/slot-in-action.gif");
 		padding: 10em 0 4.75em 0 ;
 	}
 
@@ -3227,7 +3274,6 @@ Grey Highlight: #bcbec0;
 
 			#banner {
 				padding: 7em 0 8.25em 0 ;
-				/*background-color: #FCFCFC;*/
 				background-size: auto, cover;
 				background-position: center, center;
 				margin-bottom: -6.5em;
@@ -3310,6 +3356,7 @@ Grey Highlight: #bcbec0;
 
 	#wrapper > header {
 		padding: 11em 0 2.25em 0 ;
+		background-image: linear-gradient(to top, rgba(160, 53, 44, 0.8), rgba(160, 53, 44, 0.8)), url("../../images/bg.jpg");
 	}
 
 		#wrapper > header .inner {
@@ -3337,7 +3384,6 @@ Grey Highlight: #bcbec0;
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
 			background-color: #FCFCFC;
-			background-image: linear-gradient(to top, rgba(160, 53, 44, 0.8), rgba(160, 53, 44, 0.8)), url("../../images/bg.jpg");
 			background-size: auto, cover;
 			background-position: center, 0% 30%;
 			margin-bottom: -6.5em;
@@ -3444,7 +3490,7 @@ Grey Highlight: #bcbec0;
 		}
 
 		.wrapper .inner {
-			padding: 3em 0 1em 0 ;
+			/*padding: 3em 0 1em 0 ;*/
 			margin: 0 auto;
 			width: 55em;
 		}
@@ -3530,19 +3576,19 @@ Grey Highlight: #bcbec0;
 			}
 
 		.wrapper.spotlight {
-			background-color: #8b4646;
+			background-color: #C5C4D6;
 		}
 
 			.wrapper.spotlight:before, .wrapper.spotlight:after {
-				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%238b4646%3B' /%3E%3C/svg%3E");
+				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23C5C4D6%3B' /%3E%3C/svg%3E");
 			}
 
 			.wrapper.spotlight:before {
-				box-shadow: inset 0 -1px 0 0 #8b4646, 0 1px 0 0 #8b4646;
+				box-shadow: inset 0 -1px 0 0 #C5C4D6, 0 1px 0 0 #C5C4D6;
 			}
 
 			.wrapper.spotlight:after {
-				box-shadow: inset 0 -1px 0 0 #8b4646, 0 1px 0 0 #8b4646;
+				box-shadow: inset 0 -1px 0 0 #C5C4D6, 0 1px 0 0 #C5C4D6;
 			}
 
 			.wrapper.spotlight .inner {
@@ -3591,35 +3637,35 @@ Grey Highlight: #bcbec0;
 			}
 
 			.wrapper.spotlight.style2 {
-				background-color: #7d2f2f;
+				background-color: #DDD7E3;
 			}
 
 				.wrapper.spotlight.style2:before, .wrapper.spotlight.style2:after {
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%237d2f2f%3B' /%3E%3C/svg%3E");
+					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23DDD7E3%3B' /%3E%3C/svg%3E");
 				}
 
 				.wrapper.spotlight.style2:before {
-					box-shadow: inset 0 -1px 0 0 #7d2f2f, 0 1px 0 0 #7d2f2f;
+					box-shadow: inset 0 -1px 0 0 #DDD7E3, 0 1px 0 0 #DDD7E3;
 				}
 
 				.wrapper.spotlight.style2:after {
-					box-shadow: inset 0 -1px 0 0 #7d2f2f, 0 1px 0 0 #7d2f2f;
+					box-shadow: inset 0 -1px 0 0 #DDD7E3, 0 1px 0 0 #DDD7E3;
 				}
 
 			.wrapper.spotlight.style3 {
-				background-color: #6f1918;
+				background-color: #EAE3E4;
 			}
 
 				.wrapper.spotlight.style3:before, .wrapper.spotlight.style3:after {
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%236f1918%3B' /%3E%3C/svg%3E");
+					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23EAE3E4%3B' /%3E%3C/svg%3E");
 				}
 
 				.wrapper.spotlight.style3:before {
-					box-shadow: inset 0 -1px 0 0 #6f1918, 0 1px 0 0 #6f1918;
+					box-shadow: inset 0 -1px 0 0 #EAE3E4, 0 1px 0 0 #EAE3E4;
 				}
 
 				.wrapper.spotlight.style3:after {
-					box-shadow: inset 0 -1px 0 0 #6f1918, 0 1px 0 0 #6f1918;
+					box-shadow: inset 0 -1px 0 0 #EAE3E4, 0 1px 0 0 #EAE3E4;
 				}
 
 			.wrapper.spotlight.style4 {
